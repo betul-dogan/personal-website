@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/berlin-sans-fb");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header-container {
+  padding: 10px 20px;
+  height: 60px;
+  background-color: #fff4f0;
+}
+
+.header-title {
+  font-size: 2.1rem;
+  font-weight: bold;
+  color: #ee8e46;
+}
+
+#menuToggle,
+#menuClose {
+  font-size: 2.1rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ee8e46;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-transform: uppercase;
+  font-family: "Berlin Sans FB", sans-serif;
+  font-size: 1.3rem;
+}
+.nav-link:hover {
+  color: #ee8e46;
+}
+
+.footer {
+  background-color: #000000;
+  color: #ee8e46;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.truncate {
+  color: #000000;
+  font-size: 0.8rem;
+}
+
+.social-media a {
+  font-size: 1.3rem;
+  color: #ee8e46;
+}
+
+.baslik {
+  color: #ee8e46;
+}
+
+.main1 {
+  margin-top: 100px;
+}
+
+.mobileMenu {
+  background-color: #fff4f0;
+}/*# sourceMappingURL=style.css.map */

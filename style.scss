@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/berlin-sans-fb");
+
+// Renk Değişkenleri
+$primary-color: #ee8e46;
+$secondary-color: #fff4f0;
+$text-color: #333;
+$dark-color: #000000;
+$light-color: #ffffff;
+
+// Özel Stiller
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header-container {
+  padding: 10px 20px;
+  height: 60px;
+  background-color: $secondary-color;
+}
+
+.header-title {
+  font-size: 2.1rem;
+  font-weight: bold;
+  color: $primary-color;
+}
+
+#menuToggle,
+#menuClose {
+  font-size: 2.1rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: $primary-color;
+}
+
+.nav-link {
+  color: $text-color;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-transform: uppercase;
+  font-family: "Berlin Sans FB", sans-serif;
+  font-size: 1.3rem;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.footer {
+  background-color: $dark-color;
+  color: $primary-color;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.truncate {
+  color: $dark-color;
+  font-size: 0.8rem;
+}
+
+.social-media a {
+  font-size: 1.3rem;
+  color: $primary-color;
+}
+
+.baslik {
+  color: $primary-color;
+}
+
+.main1 {
+  margin-top: 100px;
+}
+
+.mobileMenu {
+  background-color: $secondary-color;
+}

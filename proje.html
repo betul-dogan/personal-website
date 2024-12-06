@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+     name="description" 
+     content="Betül Doğan'ın kişisel web sitesi. Web tasarım, SEO ve JavaScript hakkında bilgiler ve projeler.">
+
+    <meta name="keywords" content="web tasarım, seo, javascript,frontend developer , html">
+    <meta property="og:title" content="Betül Doğan - Kişisel Web Sitesi">
+    <meta property="og:type" content="website">
+    <meta name="author" content="Betül Doğan">
+    <meta name="robots" content="index, follow">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="geo.position" content="38.4192;27.1287">
+    <meta name="geo.placename" content="Manisa, Türkiye">
+    <meta name="geo.region" content="TR-45">
+
+
+    <title>Kişisel Web Sitesi</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header
+      class="position-fixed top-0 w-100 start-0 header-container d-flex justify-content-between align-items-center"
+    >
+      <!-- Sol tarafta isim -->
+      <div class="header-title"></div>
+
+      <!-- d-md-none: Menü ikonu, yalnızca mobil cihazlarda görünür hale getirildi. -->
+      <div class="d-flex align-items-center">
+        <nav class="d-none d-md-flex">
+          <a href="#hakkimda" class="nav-link mx-3">About Me</a>
+          <a href="#projelerim" class="nav-link mx-3">My Project</a>
+          <a href="#iletisim" class="nav-link mx-3">Contact</a>
+        </nav>
+        <!-- Menü ikonu -->
+        <i class="bx bx-menu d-md-none ms-3" id="menuToggle"></i>
+      </div>
+    </header>
+
+    <!-- Mobil Menü -->
+    <nav
+      id="mobileMenu"
+      class="position-fixed top-0 start-0 w-100 h-100 d-none mobileMenu"
+    >
+      <div class="p-3 text-end">
+        <i class="bx bx-x" id="menuClose"></i>
+      </div>
+      <ul class="list-unstyled text-center">
+        <li><a href="#hakkimda" class="nav-link my-5">About Me</a></li>
+        <li><a href="#projelerim" class="nav-link my-5">My Projects</a></li>
+        <li><a href="#iletisim" class="nav-link my-5">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Ana İçerik -->
+    <main class="container text-center">
+      <section id="hakkimda" class="main1 mb-5">
+        <h2>About Me</h2>
+        <p class="pt-4">
+          Web geliştirme ve Android uygulama geliştirme konularına odaklanmış
+          bir yazılım geliştiriciyim. Bilgi teknolojileri alanında aldığım
+          eğitimle birlikte, HTML, CSS, JavaScript gibi web geliştirme dillerini
+          ve ayrıca React, Angular, TypeScript, React Native gibi modern
+          teknolojileri kullanarak projeler geliştiriyorum.
+        </p>
+      </section>
+      <section id="projelerim" class="mb-5">
+        <h2>My Projects</h2>
+        <div class="container my-4">
+          <div class="row"></div>
+        </div>
+      </section>
+      <section id="iletisim" class="mb-5">
+        <h2>Contact</h2>
+        <footer class="footer py-4">
+          <div class="container text-center">
+            <p class="mb-1">BETÜL DOĞAN</p>
+            <p class="mb-3">
+              Telefon:
+              <a
+                href="tel:+905445032075"
+                class="text-white text-decoration-none"
+                >+90 544 503 20 75</a
+              >
+            </p>
+            <hr />
+            <div class="social-media">
+              <a href="https://github.com/betul-dogan"><i class="bx bxl-github mx-2"></i></a>
+              <a href="https://medium.com/@btlll.dgnn"><i class="bx bxl-medium mx-2"></i></a>
+              <a href="https://wa.me/905445032075" target="_blank"><i class="bx bxl-whatsapp mx-2"></i>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
